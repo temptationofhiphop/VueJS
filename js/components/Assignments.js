@@ -27,7 +27,6 @@ export default{
 	},
 
 	computed:{
-
 		filters(){
 			return{
 				inProgress: this.assignments.filter(assignment => ! assignment.complete),
